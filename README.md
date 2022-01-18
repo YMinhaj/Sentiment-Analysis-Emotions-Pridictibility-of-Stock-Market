@@ -50,3 +50,37 @@ Shah et al. [11] shows how current sentiment can be utilised to forecast the pha
 
 # Methodology
 In this project we are focusing about the prediction and technical analysis of the market.  Stock-money market forecasting is the method to determine the future value of company stock. Nowadays, a huge amount of valuable information related to the financial market is available on various media such as websites, twitter, Facebook, blogs and such others. In general, a stock price depends on two factors. One is fundamental factor and another one is technical factor. The fundamental factor mainly depends on the statistical data of a company. It includes reports, financial status of the company, the balance sheets, dividends and policies of the companies whose stock are to be observed. The technical factor includes the quantitative parameters like trend indicators, daily ups and downs, highest and lowest values of a day, volume of stock, indices, put/call ratios, etc. In technical factor the historical prices are considered for the forecasting. Initially the historical prices of the selected company are downloaded from the website. Various methods of stock level indicators are available to computing the stock value. Few of them are Moving Average, Stochastic RSI (Relative-Strength Index), Bollinger bands, Accumulation – Distribution, Typical Point (pivot point).
+<br />
+![RMSE ](https://github.com/YMinhaj/Sentiment-Analysis-Emotions-Pridictibility-of-Stock-Market/blob/main/DocumentImage/blockdiagram.png?raw=true "Block Diagram")<br />
+Mainly the data collected from YAHOO and Crypto exchanges needs to be preprocessed to make it suitable. But there is a main problem that there is no data when the market is closed, so to overcome this problem we use simple formula Y = (xPrevious + xNext)/2 We are using two metrices which are useful for machine learning algorithms HLPCT (High Low Percentage) (HLPCT = High-low/low) PCTChange(Percentage Change) ( PCTChange = Close-open/open ).
+The data collected from crypto exchange on some interval of time will be processed and the polarity and subjectivity will be calculated accordingly. Data Collected from Twitter needs to be preprocessed to make it suitable User Request the API to get Tweets from the Server. We use Twitter Api which is a REST Api the result will come in JSON format The Search API allows filtering based on language, region, geolocation and time. JSON objects that contain the tweets and their metadata. A variety of information, including username, time, location, retweets, and more. we use $ sign as a ticker to gather the most financial tweets. used TweetPy which is a wrapper for the Twitter API.
+## Tools & Platform
+By analyzing the data obtained and compare the results obtained from that analysis respectively. In this project we use multiple Machine Learning Algorithms namely, Nave Bayes, Linear Regression, LSTM and ARIMA. Furthermore, after the results, we will evaluate these model’s performance using Precision, Recall and F-1 score. CV technique.
+We will use the following tools and platform
+I.	Visual Studio
+II.	Python
+III.	Live feed API
+IV.	Html 5
+V.	Jquery
+VI.	Bootstrap
+
+## Tools & Platform
+Task	TimeLine
+Research Analysis
+	1/Mar/2021 – 31/Mar/2021
+Data gathering Methods
+	1/Apr/2021 – 04/May/2021
+Money Market Data
+	5/May/2021 – 01/June/2021
+Preparing of Data
+	01/June/2021 – 31/July/2021
+Environment Development
+	05/May/2021 – 31/July/2021
+Executing Data Models
+	01/Aug/2021 – 15/Sep/2021
+Analyzing Data with Model
+	01/Sep/2021 – 30/Sep/2021
+Results/Outcomes
+	01/Oct/2021 – 31/Oct/2021
+<br />
+![RMSE ](https://github.com/YMinhaj/Sentiment-Analysis-Emotions-Pridictibility-of-Stock-Market/blob/main/DocumentImage/timeline.png?raw=true "TimeLines")<br />
