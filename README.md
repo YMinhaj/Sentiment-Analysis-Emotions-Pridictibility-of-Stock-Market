@@ -38,7 +38,7 @@ people helps the investors how, when and where to invest resulting in growth and
 economy in future. 
 We have calculated the MSE for all the models and then compare all the models by MSE using 
 the formula
-![RMSE ](/Sentiment-Analysis-Emotions-Pridictibility-of-Stock-Market/DocumentImage/rmse.png?raw=true "Round Mean Square Error Formula")
+![RMSE ](https://github.com/YMinhaj/Sentiment-Analysis-Emotions-Pridictibility-of-Stock-Market/blob/main/DocumentImage/rmse.png?raw=true "Round Mean Square Error Formula")
 However, result show result show the MSE all Machine Learning algorithms between 6-14. On 
 average we have predicted the company stock for the next opening day and also predicted the 
 stocks based on twitter news for a week long
