@@ -253,11 +253,12 @@ th {
     border: 1px solid #000;
   }
   .table {
+    color:#ddd;
     border-collapse: collapse !important;
   }
   .table td,
   .table th {
-    background-color: #fff !important;
+    background-color: #78a9da !important;
   }
   .table-bordered th,
   .table-bordered td {
@@ -2256,6 +2257,7 @@ th {
   text-align: left;
 }
 .table {
+  color:#ffaa00d1;
   width: 100%;
   max-width: 100%;
   margin-bottom: 20px;

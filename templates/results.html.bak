@@ -362,7 +362,33 @@
                     </div>
              
 
-                  
+                    <!-- OVERALL POLARITY -->
+                    <div class="col-md-4">
+                        <div class="card bg-success p-20">
+                            <div class="media widget-ten">
+                                <div class="media-left meida media-middle">
+                                    <span><i class="ti-location-pin f-s-40"></i></span>
+                                </div>
+                                <div class="media-body media-text-right">
+                                    <h2 class="color-black text-black">{{tw_pol}}</h2>
+                                    <p class="m-b-0 text-black">Overall Tweets Polarity</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="card bg-dark p-20">
+                            <div class="media widget-ten">
+                                <div class="media-left meida media-middle">
+                                    <span><i class="ti-comment f-s-40"></i></span>
+                                </div>
+                                <div class="media-body media-text-right">
+                                    <h2 class="color-black text-black" style="text-align: left;">According to the ML Predictions & Sentiment Analysis of the Tweets, a {{idea}} in {{quote}} stock is expected => {{decision}}</h2>
+                                    <p class="m-b-0 text-black">Recommendation</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
 
 
